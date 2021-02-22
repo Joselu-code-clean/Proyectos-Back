@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="primero.Historico" table="historico" schema="horario">
+        <id name="codProf">
+            <column name="codProf" sql-type="char(3)" length="3"/>
+        </id>
+        <property name="nombre">
+            <column name="nombre" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="apellidos">
+            <column name="apellidos" sql-type="varchar(40)" length="40" not-null="true"/>
+        </property>
+        <property name="fechaAlta">
+            <column name="fechaAlta" sql-type="timestamp"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,38 @@
+NOMBRE:Jose Luis 	APELLIDOS:Del Rio Muñoz		NOTA:	PROG:
+								ENT:
+-------------------------------------------
+****PROGRAMACION****
+//CODIGO//
+CODIGO:
+- "Error: Para las excepciones es mejor hacer un finally para que siempre limpie el buffer, no tenerlo en el catch solo"
+OPTIMIZACION:
+- "Tengo en las funciones readcharacter y readstring una limpiza recien entrar, eso esta mal".
+- "En algunas funciones con sobrecarga, es mejor llamar la que no tiene mensaje que copiar y pegar el codigo de su misma funcion."
+- "No tengo que inicalizar un booleano ya que es su valor por defecto es true".
+- "Se me olvido borrar las variables "exit" en la funcion de rango int en las demas si lo hice."
+- "En las funciones de rangos, sobre la variable boolena"
+- "En la funcion boolena, envede hacer un keyboard.nextint con try catch llamar la funcion de introcucir enteros en mi caso "readint()", esto lo tengo asi ya que hice antes la funcion boolena."
+- " En las funciones boolenas elimino la funcion boolena cuando se cumple una condicion."
+- "incluir excepcion en la funcion de rangos en el metodo de los dos excluidos en el MIN y MAX iguales, que la diferencia de ellos dos sea mayor igual a 2 para que siempre haya un valor para introducir."
+-------------------------------------------
+****ENTORNOS****
+//PLANTAMIENTO//
+PLANTAMIENTO:
+- "En el readcharacter me ha faltado indicarte que el plantamiento se aplica a los dos readcharacter"
+- "En el readstring me ha faltado indicarte que el plantamiento se aplica a los dos readstring"
+- "En la excepcion IllegalArgumentException no tenia mensaje aclarativo."
+- "En el plantamiento de los rangos me falto incluir cuando el numero minimo es mayor que el maximo que falle la funcion, esto paso ya que añadi lo de lo excepcion despues de terminar todo y no lo tenia ni en el plantamiento."
+--------------------------------------------
+TABLA CAJA NEGRA:
+-"Me falta la columna de prueba de interfaz de usuario, creia que con la comuna caso de pruebas se hacia referencia a las pruebas que ibamos hacer"
+-"Falta en el caso no valida de readstring "limpieza de buffer"."
+-"En algunas tablas me falta añadir el caso no valido de que no me introduzca nada"
+-"En la tabla de rango, me ha faltado una prueba automatizada JUNIT sobre el min no puede ser mayor al max. ".
+PRUEBA:
+MENU:
+
+---------------------------------------------
+DIAGRAMA DE CASO DE USOS:
+-"De los casos de uso al actor se pone una flecha continua sin nada."
+MEJORAS:
+-"En la parte de los casos de limites, creo que deberia haber puesto casos de <<extend>> para sus tipos."
